@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-5-console-commands-UrRocklicker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22f58015342198967b529e0d4fe0fd84cdad07e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+160670dceaf2d914212712149d279ee91e67bc15")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-5-console-commands-UrRocklicker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-5-console-commands-UrRocklicker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
