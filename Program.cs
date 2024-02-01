@@ -1,4 +1,5 @@
 ﻿// 0=cyan, 1=red, 2=white, 3=black, 4=yellow, 5=brown, 6=blue
+// 1-D array depicting the image of Mario provided
 int[] MarioArray = new int[] 
 {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -21,9 +22,11 @@ int[] MarioArray = new int[]
     0,0,0,0,0,0,0,0,0,0,0,0,0,0
 };
 
+// Set up a clean canvas to draw
 Console.Clear();
 Console.SetCursorPosition(0, 0);
 
+// Iterates over every number in the array and prints the corresponding color
 for(int i=0;i<MarioArray.Length;i++){
     switch(MarioArray[i]){
         case 0: Console.BackgroundColor = ConsoleColor.Cyan;
@@ -41,15 +44,17 @@ for(int i=0;i<MarioArray.Length;i++){
         case 4: Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.Write("  ");
                 break;
-        case 5: Console.BackgroundColor = ConsoleColor.DarkYellow;
+        case 5: Console.BackgroundColor = ConsoleColor.DarkYellow; // No good color for brown either
                 Console.Write("  ");
                 break;
         case 6: Console.BackgroundColor = ConsoleColor.Blue;
                 Console.Write("  ");
                 break;
-        default: Console.WriteLine("INVALID"); break;
+        default: Console.WriteLine("INVALID"); break; // If there is an unexpected number in the array, print an error
 
     }
+    // Checks for a new line by calculating the remainder of 1 + i (because it starts at 0) and 14
     if(i !=0 && (i + 1) % 14 == 0){Console.ResetColor(); Console.Write('\n');}
 }
+// Resets the background so you can continue to use the console
 Console.ResetColor();
