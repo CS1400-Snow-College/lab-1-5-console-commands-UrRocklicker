@@ -1,0 +1,15 @@
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\bin\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.exe
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\bin\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.deps.json
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\bin\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.runtimeconfig.json
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\bin\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.dll
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\bin\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.pdb
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.AssemblyInfoInputs.cache
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.AssemblyInfo.cs
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.csproj.CoreCompileInputs.cache
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.sourcelink.json
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.dll
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\refint\lab-1-5-console-commands-UrRocklicker.dll
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.pdb
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\lab-1-5-console-commands-UrRocklicker.genruntimeconfig.cache
+C:\Users\Rocklicker\Desktop\CS1400\lab-1-5-console-commands-UrRocklicker\obj\Debug\net8.0\ref\lab-1-5-console-commands-UrRocklicker.dll
