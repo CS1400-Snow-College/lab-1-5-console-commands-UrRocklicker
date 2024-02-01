@@ -28,7 +28,7 @@ void Brown(){
     Console.BackgroundColor = ConsoleColor.DarkYellow;
     Console.Write("  ");
 }
-void White(){
+void White(){ // No good color built in for the skin
     Console.BackgroundColor = ConsoleColor.White;
     Console.Write("  ");
 }
@@ -36,19 +36,25 @@ void Black(){
     Console.BackgroundColor = ConsoleColor.Black;
     Console.Write("  ");
 }
-void Draw(int pixels, System.ConsoleColor color, bool newline){
+void Draw(int pixels, System.ConsoleColor color){
     Console.BackgroundColor = color;
     for(int i=0;i<pixels;i++){
         Console.Write("  ");
     } 
     Console.ResetColor();
-    if(newline){
-        Console.Write('\n');
-    }
+}
+void DrawNl(int pixels, System.ConsoleColor color){ // Apparently you cannot overload local functions
+    Console.BackgroundColor = color;
+    for(int i=0;i<pixels;i++){
+        Console.Write("  ");
+    } 
+    Console.ResetColor();
+    Console.Write('\n');
 }
 
 Console.Clear();
 Console.SetCursorPosition(0, 0);
-Draw(14, c_Cyan, true);
-Draw(4, c_Cyan, false); Draw(5, c_Red, false); Draw(5, c_Cyan, false);
-Draw(3, c_Cyan, false); Draw(9, c_Red, false); Draw(2, c_Cyan, true);
+DrawNl(14, c_Cyan);
+Draw(4, c_Cyan); Draw(5, c_Red); DrawNl(5, c_Cyan);
+Draw(3, c_Cyan); Draw(9, c_Red); DrawNl(2, c_Cyan);
+Draw(3, c_Cyan); Draw(3, c_Black); Draw(2, c_White); Black(); White(); DrawNl(4, c_Cyan);
