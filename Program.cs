@@ -1,4 +1,5 @@
-﻿// 11=cyan, 12=red, 15=white, 0=black, 14=yellow, 6=brown, 9=blue
+﻿// Karson Talbot, Feb-1/24, Lab 1.5
+// 11=cyan, 12=red, 15=white, 0=black, 14=yellow, 6=brown, 9=blue
 // 1-D array depicting the image of Mario provided
 int[] MarioArray = new int[] 
 {
